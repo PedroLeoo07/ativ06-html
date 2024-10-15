@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-header {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    padding: 1%;
+}
+
+.bloco-01{
+    display: flex;
+    background-color: orange;
+    width: 50%;
+    height: 15.5rem;
+}
+
+.bloco-02{
+    display: flex;
+    background-color: orange;
+    width: 50%;
+    height: 15.5rem;
+}
+.conteudo-center{
+    display: flex;
+    gap: 1%;
+    padding: 1%;
+}
+.center{
+    background-color: yellow;
+    width: 100%;
+    height: 35rem;
+}
+.conteudo{
+    display: flex;
+    gap: 1%;
+    padding: 1%;
+}
+.quadrado-1{
+    background-color: blue;
+    width: 50%;
+    height: 20rem;
+}
+.quadrado-2{
+    background-color: blue;
+    width: 50%;
+    height: 20rem;
+}
+.quadrado-3{
+    background-color: blue;
+    width: 50%;
+    height: 20rem;
+}
+
+.footer {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.section-footer-01{
+    width: 100%;
+    display: flex;
+    gap: 1%;
+    padding: 0.25%;
+}
+.bloco-1{     
+    background-color: gray;
+    width: 50%;
+    height: 20rem;
+}
+.bloco-2{
+    background-color: gray;
+    width: 50%;
+    height: 20rem;
+}
+
+.section-footer-02{
+    width: 100%;
+    display: flex;
+    gap: 1%;
+    padding: 0.25%;
+}
+
+.bloco-3{
+    background-color: gray;
+    width: 50%;
+    height: 20rem;
+}
+ .bloco-4{
+    background-color: gray;
+    width: 50%;
+    height: 20rem;
+}
+
+@media (max-width: 768px) {
+    .section-header {
+        flex-direction: column;
+        height: auto;
+        padding: 1%;
+        gap: 0.5rem;
+    }
+    .bloco1 {
+        width: 100%;
+        height: 8rem;
+    }
+
+    .bloco2 {
+        width: 100%;
+        height: 8rem;
+    }
+
+    .conteudo-center{
+        display: flex;
+        gap: 1%;
+        padding: 1%;
+    }
+    .center{
+        width: 100%;
+        height: 25rem;
+    }
+    .conteudo{
+        display: flex;
+        gap: 0.5rem;
+        padding: 1%;
+        flex-direction: column;
+    }
+    .quadrado-1{
+        width: 100%;
+        height: 10rem;
+    }
+    .quadrado-2{
+        width: 100%;
+        height: 10rem;
+    }
+    .quadrado-3{
+        width: 100%;
+        height: 10rem;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-footer-01{
+        display: flex;
+        gap: 0.5rem;
+        padding: 1%;
+        flex-direction: row;
+    }
+    .bloco-1{
+
+        width: 50%;
+        height: 8rem;
+    }
+    .bloco-2{
+
+        width: 50%;
+        height: 8rem;
+    }
+
+    .section-footer-02 {
+        display: flex;
+        gap: 0.5rem;
+        padding: 1%;
+        flex-direction: row;
+    }
+
+    .bloco-3{
+
+        width: 50%;
+        height: 8rem;
+    }
+     .bloco-4{
+
+        width: 50%;
+        height: 8rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .section-header {
+        flex-direction: column;
+        height: auto;
+        padding: 1%;
+        gap: 0.5rem;
+    }
+    .bloco-01 {
+        width: 100%;
+        height: 8rem;
+    }
+
+    .bloco-02 {
+        width: 100%;
+        height: 8rem;
+    }
+
+    .conteudo-center{
+        display: flex;
+        gap: 1%;
+        padding: 1%;
+        margin-top: 0.5rem;
+    }
+    .center{
+        width: 100%;
+        height: 10rem;
+    }
+    .conteudo{
+        display: flex;
+        gap: 0.5rem;
+        padding: 1%;
+        flex-direction: column;
+        margin-top: 0.5rem;
+    }
+    .quadrado-1{
+        width: 100%;
+        height: 12rem;
+    }
+    .quadrado-2{
+        width: 100%;
+        height: 12rem;
+    }
+    .quadrado-3{
+        width: 100%;
+        height: 12rem;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.5rem;
+        gap: 0;
+    }
+
+    .section-footer-01{
+        display: flex;
+        gap: 0;
+        padding: 0;
+        flex-direction: row;
+    }
+    .bloco-1{
+        width: 50%;
+        height: 4rem;
+    }
+    .bloco-2{
+        width: 50%;
+        height: 4rem;
+    }
+
+    .section-footer-02 {
+        display: flex;
+        gap: 0;
+        padding: 0;
+        flex-direction: row;
+
+    }
+
+    .bloco-3{
+        width: 50%;
+        height: 4rem;
+    }
+     .bloco-4{
+        width: 50%;
+        height: 4rem;
+    }
+}
